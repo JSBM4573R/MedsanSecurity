@@ -33,7 +33,6 @@ html {
 
 /* .modal-footer .btn:hover{
     background-color: rgb(202, 12, 75);
-
 } */
 
 .modal-form{
@@ -51,7 +50,6 @@ html {
 	padding: 8px;
 	width: 85%;
 	font-size: 14px
-	
 }
 
 .modal-title{
@@ -84,7 +82,6 @@ html {
 	align-items: center;
 }
 
-
 .form-select{
 	display: flex;
 	flex-direction: column;
@@ -95,8 +92,6 @@ html {
 	width: 85%;
 	font-size: 14px
 }
-
-	
 	
 .modal-form input, 
 .modal-form textarea{
@@ -108,14 +103,12 @@ html {
 }
 
 .form-check-login{
-	
 	width: auto;
 	padding: auto;
 	display:flex;
   	flex-wrap:nowrap;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .form-check-login .recordarme-check{
