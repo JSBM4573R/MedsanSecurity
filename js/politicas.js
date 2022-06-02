@@ -48,11 +48,11 @@ COMPARTIR SU INFORMACIÓN PERSONAL
 Compartimos su Información personal con terceros para que nos ayuden a utilizar su
 Información personal, tal como se describió anteriormente. Por ejemplo, utilizamos la
 tecnología de Shopify en nuestra tienda online. Puede obtener más información sobre cómo
-Shopify utiliza su Información personal aquí: https://www.shopify.com/legal/privacy. También
+Shopify utiliza su Información personal <a href="https://www.shopify.com/legal/privacy">aquí</a>. También
 utilizamos Google Analytics para ayudarnos a comprender cómo usan nuestros clientes el
-Sitio. Puede obtener más información sobre cómo Google utiliza su Información personal aquí:
-https://www.google.com/intl/es/policies/privacy/. Puede darse de baja de Google Analytics
-aquí: https://tools.google.com/dlpage/gaoptout.
+Sitio. Puede obtener más información sobre cómo Google utiliza su Información personal 
+<a href="https://www.google.com/intl/es/policies/privacy/">aquí</a> Puede darse de baja de Google Analytics
+<a href="https://tools.google.com/dlpage/gaoptout">aquí</a>
 Finalmente, también podemos compartir su Información personal para cumplir con las leyes y
 regulaciones aplicables, para responder a una citación, orden de registro u otra solicitud
 legal de información que recibamos, o para proteger nuestros derechos.
@@ -62,14 +62,14 @@ Como se describió anteriormente, utilizamos su Información personal para propo
 anuncios publicitarios dirigidos o comunicaciones de marketing que creemos que pueden ser de
 su interés. Para más información sobre cómo funciona la publicidad dirigida, puede visitar
 la página educativa de la Iniciativa Publicitaria en la Red ("NAI" por sus siglas en inglés)
-en http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
+en:  <a href="http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work">NAI</a>
 Puede darse de baja de la publicidad dirigida mediante los siguientes enlaces:
 [[
 INCLUIR ENLACES PARA DARSE DE BAJA DE CUALQUIER SERVICIO QUE SE UTILICE.
 ALGUNOS ENLACES FRECUENTES INCLUYEN:
-FACEBOOK: https://www.facebook.com/settings/?tab=ads
-GOOGLE: https://adssettings.google.com/authenticated?hl=es
-BING: https://about.ads.microsoft.com/es-es/recursos/directivas/anuncios-personalizados
+<a href="https://www.facebook.com/settings/?tab=ads">FACEBOOK</a>
+<a href="https://adssettings.google.com/authenticated?hl=es">GOOGLE</a>
+<a href="https://about.ads.microsoft.com/es-es/recursos/directivas/anuncios-personalizados">BING</a>
 ]]
 Además, puede darse de baja de algunos de estos servicios visitando el portal de exclusión
 voluntaria de Digital Advertising Alliance en: ttp://optout.aboutads.info/.
