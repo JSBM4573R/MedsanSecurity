@@ -9,10 +9,12 @@
 
 html {
     scroll-behavior: smooth;
-    height: 100%;
+    margin: auto;
+    max-width: 100%;
 }
 
 body {
+    margin: auto;
     font-size: 16px;
     line-height: 20px;
     font-family: 'Oswald', sans-serif;
@@ -253,12 +255,11 @@ img {
     margin: auto;
 }
 
-/* .contenido-vision,
+.contenido-vision,
 .contenido-mision{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 3px 3px 13px 3px rgba(0 0 0 / 15%);
-} */
+    padding: 0;
+    max-width: 100%;
+}
 
 .contenido-vision p,
 .contenido-mision p{
@@ -792,7 +793,6 @@ img {
 @media screen and (max-width:395px) {
     .container img{
         height: 50px;
-        width: auto;
     }
 }
 
@@ -875,14 +875,22 @@ img {
 
 @media screen and (max-width:760px) {
     .container-nosotros{
+        max-width: 100%;
         padding: 0;
+        margin: 0 auto;
+        
     }
     .container-nosotros p{
         font-size: 1.1rem;
     }
     .contenido-mision p,
     .contenido-vision p{
-        padding: 5px 30px;
+        padding: 5px 10px;
+        max-width: 95%;
+        margin: auto;
+    }
+    .row{
+        margin: 0;
     }
 }
 
