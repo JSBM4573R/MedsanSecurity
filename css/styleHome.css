@@ -585,6 +585,7 @@ img {
 
 .contenedor-contacto{
     background-color: hsla(0, 18%, 90%, 0.966);
+    margin: auto;
 }
 
 .contacto{
@@ -592,7 +593,6 @@ img {
     margin: auto;
     border-radius: 20px;
     padding: 35px 50px;
-    width: 50%;
 }
 
 .contacto-titulo{
@@ -772,8 +772,12 @@ img {
 /* ----------------------------------- Media Querys --------------------------------------- */
 
 @media screen and (max-width:995px) {
+    .footer-top{
+        padding: 70px 80px;
+    }
     .contacto-container{
-        max-width: 95%;
+        margin: auto;
+        max-width: 90%;
     }
     .contacto{
         width: 650px;
@@ -874,6 +878,9 @@ img {
 }
 
 @media screen and (max-width:760px) {
+    .contenedor-contacto{
+        margin: auto;
+    }
     .container-nosotros{
         max-width: 100%;
         padding: 0;
@@ -890,9 +897,13 @@ img {
         margin: auto;
     }
     .row{
-        margin: 0;
+        margin: auto;
+        /* margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-left: calc(var(--bs-gutter-x) * -.5); */
     }
 }
+
 
 @media screen and (max-width:380px) {
     .container-nosotros p{
@@ -919,7 +930,7 @@ img {
 /* Separador anuncion 2 */
 @media screen and (max-width:768px) {
     .footer-top{
-        padding: 20px 50px;
+        padding: 20px 40px;
     }
     .texto-anuncio2 h1{
         font-size: 1.3rem;
