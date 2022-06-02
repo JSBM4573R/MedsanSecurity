@@ -101,7 +101,8 @@ Para obtener más información sobre nuestras prácticas de privacidad, si tiene
 pregunta o si desea presentar una queja, contáctenos por correo electrónico a
 jsbustos43@misena.edu.co o por correo mediante el uso de la información que se proporciona a
 continuación:
-Kra 92 #8c-36, Castilla, Kennedy, Bogotá D.C., Bogota, DC, 11166, Colombia </p>`;
+Kra 92 #8c-36, Castilla, Kennedy, Bogotá D.C., Bogota, DC, 11166, Colombia 
+</p>`;
 
 
 const politicaCookiesDescripcion = `
