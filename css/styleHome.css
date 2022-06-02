@@ -472,7 +472,7 @@ img {
 }
 
 .anuncio2{
-    background: linear-gradient(-90deg, #04bbac, #654de9);
+    background: linear-gradient(180deg, #04bbac, #654de9);
     width: 100%;
     height: auto;
     color: #000;
@@ -545,6 +545,27 @@ img {
     transition: all .4s ease;
 }
 
+/* anuncio 3*/
+.contenido-anuncio3{
+    background: linear-gradient(180deg, #654de9, hsla(0, 18%, 90%, 0.966));
+    height: 350px;
+}
+
+.anuncio3{
+    margin: auto;
+    padding-top: 180px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.anuncio3 video{
+    z-index: 999px;
+    display: block;
+}
 
 /* contacto */
 .contenedor-contacto{
