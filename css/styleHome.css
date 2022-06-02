@@ -253,6 +253,13 @@ img {
     margin: auto;
 }
 
+/* .contenido-vision,
+.contenido-mision{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 13px 3px rgba(0 0 0 / 15%);
+} */
+
 .contenido-vision p,
 .contenido-mision p{
     text-align: justify;
@@ -568,18 +575,23 @@ img {
 }
 
 /* contacto */
-.contenedor-contacto{
-    background-color: hsla(0, 18%, 90%, 0.966);
+.contacto-container{
+    max-width: 80%;
+    margin: auto;
     color: #e6e6e6;
     padding-top: 50px;
-    width: 100%;
+}
+
+.contenedor-contacto{
+    background-color: hsla(0, 18%, 90%, 0.966);
 }
 
 .contacto{
     background: linear-gradient(180deg, #5990d8, #350aac);
+    margin: auto;
     border-radius: 20px;
-    max-width: 90%;
     padding: 35px 50px;
+    width: 50%;
 }
 
 .contacto-titulo{
@@ -759,6 +771,12 @@ img {
 /* ----------------------------------- Media Querys --------------------------------------- */
 
 @media screen and (max-width:995px) {
+    .contacto-container{
+        max-width: 95%;
+    }
+    .contacto{
+        width: 650px;
+    }
     .mision-img img,
     .vision-img img{
         display: none;
@@ -771,6 +789,13 @@ img {
     }    
 }
 
+@media screen and (max-width:395px) {
+    .container img{
+        height: 50px;
+        width: auto;
+    }
+}
+
 @media screen and (max-width:350px) {
     .navbar-brand {
         font-size: 1.2rem;
@@ -778,9 +803,16 @@ img {
 }
 
 @media screen and (max-width:310px) {
+    .container img{
+        height: 30px;
+        width: auto;
+    }
     .navbar-brand {
         font-size: 1rem;
     }    
+    .footer-top{
+        padding: 5px 1px;
+    }
 }
 
 /* Inicio */
@@ -820,7 +852,6 @@ img {
 
 @media screen and (max-width:380px) {
     .contenedor-descripcion .titulo h1{
-        
         font-size: 3rem;
     }
     .contenedor-descripcion .descripcion p{
@@ -829,9 +860,7 @@ img {
         line-height: 20px;
     }
     .button-inicio {
-
         width: 100px;
-
         padding: .7rem 2.5rem;
         font-size: .8rem;
     }
@@ -846,13 +875,11 @@ img {
 
 @media screen and (max-width:760px) {
     .container-nosotros{
-        max-width: 100%;
+        padding: 0;
     }
-
     .container-nosotros p{
         font-size: 1.1rem;
     }
-
     .contenido-mision p,
     .contenido-vision p{
         padding: 5px 30px;
@@ -883,7 +910,9 @@ img {
 
 /* Separador anuncion 2 */
 @media screen and (max-width:768px) {
-
+    .footer-top{
+        padding: 20px 50px;
+    }
     .texto-anuncio2 h1{
         font-size: 1.3rem;
     }
@@ -893,7 +922,6 @@ img {
 }
 
 @media screen and (max-width:340px) {
-    
     .texto-anuncio2 h1{
         font-size: 1.1rem;
     }
@@ -917,6 +945,12 @@ img {
 
 /* Contacto */
 @media screen and (max-width:450px) {
+    .container-servicios{
+        padding: 10px;
+    }
+    .contenido-anuncio2{
+        max-width: 95%;
+    }
     .contacto{
         padding: 35px 20px;
     }
