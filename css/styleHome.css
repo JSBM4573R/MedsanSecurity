@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
@@ -222,6 +223,7 @@ img {
 
 /* Nosotros */
 .container-nosotros{
+    max-width: 80%;
     margin: auto;
     padding: 0px 40px;
     color: #000;
@@ -464,6 +466,7 @@ img {
 
 /* separador de comentario anuncio2 */
 .contenido-anuncio2{
+    max-width: 80%;
     color: #fff;
     padding: 20px;
 }
@@ -626,8 +629,7 @@ img {
 /* pie de pagina */
 .footer-top {
     z-index: 100;
-    padding-bottom: 90px;
-    padding: 70px;
+    padding: 70px 150px;
     background-color: #000;
 }
 
@@ -735,15 +737,10 @@ img {
 
 /* ----------------------------------- Media Querys --------------------------------------- */
 
-@media screen and (max-width:450px) {
-    .container img {
-        height: 45px;
-    }
-}
-
-@media screen and (max-width:290px) {
-    .container img {
-        height: 35px;
+@media screen and (max-width:995px) {
+    .mision-img img,
+    .vision-img img{
+        display: none;
     }
 }
 
@@ -752,11 +749,13 @@ img {
         font-size: 1.5rem;
     }    
 }
+
 @media screen and (max-width:350px) {
     .navbar-brand {
         font-size: 1.2rem;
     }    
 }
+
 @media screen and (max-width:310px) {
     .navbar-brand {
         font-size: 1rem;
@@ -764,7 +763,6 @@ img {
 }
 
 /* Inicio */
-
 @media screen and (max-width:1400px) {
     .contenedor-descripcion .titulo h1{
         padding-top: 19%;
@@ -799,7 +797,6 @@ img {
     }
 } 
 
-
 @media screen and (max-width:380px) {
     .contenedor-descripcion .titulo h1{
         
@@ -820,7 +817,6 @@ img {
 }
 
 /* Nosotros */
-
 @media screen and (max-width:1200) {
     .container-nosotros{
         padding: 5px 90px;
@@ -828,14 +824,18 @@ img {
 }
 
 @media screen and (max-width:760px) {
+    .container-nosotros{
+        max-width: 100%;
+    }
+
     .container-nosotros p{
         font-size: 1.1rem;
     }
+
     .contenido-mision p,
     .contenido-vision p{
         padding: 5px 30px;
     }
-    
 }
 
 @media screen and (max-width:380px) {
@@ -847,7 +847,6 @@ img {
     .contenido-vision p{
         padding: 5px 10px;
     }
-    
 }
 
 /* Servicios */
@@ -915,12 +914,11 @@ img {
 
 @media screen and (max-width:450px) {
     .footer-top {
-        padding: 25px;
+        padding: 25px 50px;
     }
     span {
         font-size: 12px;
     }
-    
 }
 
 @media screen and (max-width:360px) {

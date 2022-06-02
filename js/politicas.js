@@ -143,6 +143,3 @@ limitada la utilización de algunas de las prestaciones del mismo.</p>`;
 // show descriptions in the index
 $('#politica-privacidad-descripcion').html(politicaPrivacidadDescripcion);
 $('#politica-cookies-descripcion').html(politicaCookiesDescripcion);
-
-
-
